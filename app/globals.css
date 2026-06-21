@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+:root {
+  --background: #ffffff;
+  --foreground: #1f1023;
+  --wiom-pink: #ec0a7a;
+}
+
+.dark {
+  --background: #160e13;
+  --foreground: #f3e4ec;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+}
+
+.font-logo {
+  font-family: var(--font-logo), sans-serif;
+}
