@@ -1,0 +1,24 @@
+{
+  "name": "wiom-review-dashboard",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "predev": "node scripts/decode-assets.js",
+    "dev": "next dev",
+    "prebuild": "node scripts/decode-assets.js",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "14.2.35",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.3.1",
+    "@types/node": "25.9.3",
+    "@types/react": "19.2.17",
+    "tailwindcss": "^4.3.1",
+    "typescript": "^5.5.4"
+  }
+}
